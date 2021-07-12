@@ -1,0 +1,128 @@
+@media(max-width: 1150px){
+    .header__nav-right{
+        margin-right: 20px;
+    }
+    .main__block-description{
+        margin: 30px;
+    }
+    .main__block-img{
+        margin: 30px;
+    }
+    .footer__content-payment{
+        margin-right: 20px;
+    }
+    .footer__content-logo{
+        margin-left: 20px;
+    }
+}
+
+
+@media(max-width: 1015px){
+    .main__content-cards{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main__content-card{
+        margin: 20px;
+    }
+    .header__nav-logo{
+        margin-left: 20px;
+    }
+
+     .main__content-block{
+       flex-direction: column;
+    }
+    .main__block-description{
+        text-align: center;
+    }
+    
+}
+
+@media(max-width: 800px){
+    .header__content-title{
+        font-size: 80px;
+    }
+}
+@media(max-width: 650px){
+    .header__content-title{
+        font-size: 60px;
+    }
+    .footer__content-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__content-list{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .footer__content-link{
+        margin-right: 0;
+    }
+    .footer__content-logo{
+        margin-left: 0;
+    }
+    .footer__content-payment{
+        margin-right: 0;
+    }
+}
+@media(max-width: 500px){
+    .header__content-title{
+        font-size: 50px;
+    }
+}
+@media(max-width: 550px){
+    .main__block-img{
+        padding: 30px;
+        width: 100%;
+        
+    }
+    .main__block-description{
+        max-width: 100%;
+        width: auto;
+        padding: 30px;
+    }
+}
+@media(max-width: 600px){
+    .header__nav-content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .header__nav-right{
+        margin-bottom: 30px;
+    }
+    .header__nav-list{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .header__nav-left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav-link{
+        margin-right: 0;
+        text-align: left;
+        
+    }
+    .header__nav-logo{
+        margin-left: 0;
+        margin: 30px 0;
+    }
+    .main__block-description{
+        align-items: center;
+    }
+    
+}
+
+@media(max-width: 420px){
+    .header__content-title{
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+    }
+}
